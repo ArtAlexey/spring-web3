@@ -11,7 +11,11 @@
 
     <http auto-config="true" use-expressions="true">
         <intercept-url pattern="/login*" access="permitAll()"/>
-        <intercept-url pattern="/course/add**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/courses" access="hasAnyRole('ROLE_ADMIN', 'ROLE_TEACHER', 'ROLE_STUDENT')"/>
+        <intercept-url pattern="/course/add**" access="hasRole('ROLE_TEACHER')"/>
+        <intercept-url pattern="/users/**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/static/**" access="permitAll()"/>
+
         <form-login login-page="/login.html"/>
         <csrf disabled="true"/>
     </http>

@@ -1,9 +1,11 @@
 package ru.easyum.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import ru.easyum.MyUserPrincipal;
 import ru.easyum.domain.Course;
 import ru.easyum.repository.CourseRepository;
 import ru.easyum.service.CourseService;
@@ -24,6 +26,8 @@ public class CourseController {
         Long total = repository.count();
         List<Course> courses = service.getPage(pageNo, pageSize);
         model.addAttribute("courses", courses);
+        MyUserPrincipal user = (MyUserPrincipal) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        model.addAttribute("user", user.getUsername());
         int size = (int) Math.ceil((double) total / 5);
         model.addAttribute("pages", new Integer[size]);
         return "courses";
