@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add teacher</title>
+    <link rel="stylesheet" th:href="@{~/static/css/bootstrap.min.css}"/>
+</head>
+<body>
+<div th:replace="fragments/menu::header"></div>
+<h1>Форма добавления преподавателя</h1>
+
+<form action="/teacher/save" method="post">
+    <div class="form-group">
+        <label for="fio">ФИО</label>
+        <input type="text" class="form-control" id="fio" name="fio">
+    </div>
+    <div class="form-group">
+        <label for="about">Описание</label>
+        <input type="text" class="form-control" id="about" name="about">
+    </div>
+    <button type="submit" class="btn btn-success">Создать</button>
+    <a class="btn btn-primary" href="/teachers" role="button">Back</a>
+</form>
+
+<script type="text/javascript" th:src="@{~/static/js/jquery-3.4.1.slim.min.js}"></script>
+<script type="text/javascript" th:src="@{~/static/js/popper.min.js}"></script>
+<script type="text/javascript" th:src="@{~/static/js/bootstrap.min.js}"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление пользователя</title>
+    <link rel="stylesheet" th:href="@{~/static/css/bootstrap.min.css}"/>
+</head>
+<body>
+<div th:replace="fragments/menu :: header"></div>
+<h1>Форма добавление пользователя</h1>
+<div class="alert alert-danger" role="alert" th:if="${param.confirmedError != null}">
+    Логины не совпадают!
+</div>
+<form action="/user/save" method="post">
+    <div class="form-group">
+        <label for="login">Логин</label>
+        <input type="text" class="form-control" id="login" name="login">
+    </div>
+    <div class="form-group">
+        <label for="password">Пароль</label>
+        <input type="password" minlength="6" class="form-control" id="password" name="password">
+    </div>
+    <div class="form-group">
+        <label for="confirmed_password">Повторите пароль</label>
+        <input type="password" minlength="6" class="form-control" id="confirmed_password" name="confirmedPassword">
+    </div>
+    <div class="form-group">
+        <label for="role">Роль</label>
+        <select id="role" class="form-control" name="role">
+            <option value="ROLE_ADMIN">Админ</option>
+            <option value="ROLE_TEACHER">Учитель</option>
+            <option value="ROLE_STUDENT">Студент</option>
+        </select>
+    </div>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="enabled" name="enabled">
+        <label class="form-check-label" for="enabled">Активен</label>
+    </div>
+    <button type="submit" class="btn btn-success">Создать</button>
+    <a class="btn btn-primary" href="/users" role="button">Обратно к списку</a>
+</form>
+
+<script type="text/javascript" th:src="@{~/static/js/jquery-3.4.1.slim.min.js}"></script>
+<script type="text/javascript" th:src="@{~/static/js/popper.min.js}"></script>
+<script type="text/javascript" th:src="@{~/static/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>

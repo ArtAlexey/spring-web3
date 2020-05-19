@@ -1,5 +1,6 @@
 package ru.easyum.controller;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -15,6 +16,8 @@ import java.util.List;
 
 @Controller
 public class CourseController {
+    private static final Logger logger = Logger.getLogger(CourseController.class);
+
     @Autowired
     CourseService service;
     @Autowired
@@ -23,6 +26,9 @@ public class CourseController {
     @RequestMapping(path = "/courses", method = RequestMethod.GET)
     public String allCourses(@RequestParam(defaultValue = "0") Integer pageNo,
                              @RequestParam(defaultValue = "5") Integer pageSize, Model model) {
+        if(logger.isInfoEnabled()){
+            logger.info("Page number" + pageNo + "Page size" + pageSize);
+        }
         Long total = repository.count();
         List<Course> courses = service.getPage(pageNo, pageSize);
         model.addAttribute("courses", courses);

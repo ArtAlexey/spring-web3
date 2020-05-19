@@ -1,0 +1,147 @@
+2020-05-18 20:11:20 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 20:11:20 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-18 20:11:20 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 20:11:20 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-18 20:11:21 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-18 20:12:07 INFO  CourseController:30 - Page number0Page size5
+2020-05-18 20:12:39 INFO  CourseController:30 - Page number1Page size5
+2020-05-18 20:12:41 INFO  CourseController:30 - Page number0Page size5
+2020-05-18 20:12:43 INFO  CourseController:30 - Page number1Page size5
+2020-05-18 20:32:13 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 20:32:13 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-18 20:32:13 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 20:32:13 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-18 20:32:14 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-18 20:34:15 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 20:34:15 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-18 20:34:15 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 20:34:15 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-18 20:34:16 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-18 20:34:40 INFO  CourseController:30 - Page number0Page size5
+2020-05-18 20:36:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 20:36:26 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-18 20:36:26 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 20:36:26 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-18 20:36:27 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 19:38:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 19:38:27 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 19:38:27 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 19:38:30 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (Соединение разорвано: "java.net.SocketTimeoutException: connect timed out: localhost:9092"
+Connection is broken: "java.net.SocketTimeoutException: connect timed out: localhost:9092" [90067-200])
+2020-05-19 19:39:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 19:39:21 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 19:39:21 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 19:39:22 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 19:39:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 19:40:43 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 19:40:43 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 19:40:43 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 19:40:44 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 19:40:44 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 20:00:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 20:00:51 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 20:00:51 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 20:00:51 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 20:00:52 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 20:06:13 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 20:06:13 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 20:06:13 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 20:06:13 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 20:06:14 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 20:06:31 INFO  CourseController:30 - Page number0Page size5
+2020-05-19 20:28:37 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 20:28:37 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 20:28:37 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 20:28:37 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 20:28:38 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:08:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:08:59 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:08:59 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:08:59 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:09:00 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:11:07 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:11:07 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:11:07 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:11:08 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:11:08 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:11:26 INFO  CourseController:30 - Page number0Page size5
+2020-05-19 21:13:08 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:13:08 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:13:09 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:13:09 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:13:09 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:13:24 INFO  CourseController:30 - Page number0Page size5
+2020-05-19 21:14:59 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:14:59 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:14:59 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:14:59 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:15:00 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:16:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:16:11 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:16:11 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:16:12 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:16:12 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:17:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:17:25 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:17:26 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:17:26 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:17:26 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:19:40 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:19:40 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:19:40 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:19:40 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:19:41 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:20:16 INFO  CourseController:30 - Page number0Page size5
+2020-05-19 21:21:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:21:06 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:21:06 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:21:06 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:21:07 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:21:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:21:51 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:21:51 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:21:52 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:21:52 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:23:43 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 21:23:43 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 21:23:43 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 21:23:43 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 21:23:44 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 21:23:52 INFO  UserController:36 - Page number0Page size5
+2020-05-19 22:00:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 22:00:06 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 22:00:06 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 22:00:07 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 22:00:08 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 22:01:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 22:01:26 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 22:01:26 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 22:01:27 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 22:01:27 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 22:01:38 INFO  UserController:36 - Page number0Page size5
+2020-05-19 22:02:07 INFO  UserController:36 - Page number0Page size5
+2020-05-19 22:06:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 22:06:23 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 22:06:23 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 22:06:23 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 22:06:24 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 22:06:43 INFO  CourseController:30 - Page number0Page size5
+2020-05-19 22:21:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 22:21:46 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 22:21:46 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 22:21:46 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 22:21:47 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 22:22:11 INFO  UserController:39 - Page number0Page size5
+2020-05-19 22:22:17 WARN  SqlExceptionHelper:137 - SQL Error: 23503, SQLState: 23503
+2020-05-19 22:22:17 ERROR SqlExceptionHelper:142 - Нарушение ссылочной целостности: "FK_AUTHORITIES_USERS: PUBLIC.AUTHORITIES FOREIGN KEY(USERNAME) REFERENCES PUBLIC.USERS(USERNAME) (CAST('admin1' AS VARCHAR_IGNORECASE))"
+Referential integrity constraint violation: "FK_AUTHORITIES_USERS: PUBLIC.AUTHORITIES FOREIGN KEY(USERNAME) REFERENCES PUBLIC.USERS(USERNAME) (CAST('admin1' AS VARCHAR_IGNORECASE))"; SQL statement:
+delete from USERS where id=? [23503-200]
+2020-05-19 22:22:17 INFO  AbstractBatchImpl:208 - HHH000010: On release of batch it still contained JDBC statements
+2020-05-19 22:22:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 22:22:59 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2020-05-19 22:22:59 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 22:22:59 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-19 22:23:00 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 22:23:20 INFO  UserController:39 - Page number0Page size5
+2020-05-19 22:23:23 INFO  UserController:39 - Page number0Page size5
+2020-05-19 22:23:52 INFO  UserController:39 - Page number0Page size5

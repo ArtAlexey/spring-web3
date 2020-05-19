@@ -10,11 +10,19 @@
     <global-method-security secured-annotations="enabled"/>
 
     <http auto-config="true" use-expressions="true">
-        <intercept-url pattern="/login*" access="permitAll()"/>
-        <intercept-url pattern="/courses" access="hasAnyRole('ROLE_ADMIN', 'ROLE_TEACHER', 'ROLE_STUDENT')"/>
-        <intercept-url pattern="/course/add**" access="hasRole('ROLE_TEACHER')"/>
-        <intercept-url pattern="/users/**" access="hasRole('ROLE_ADMIN')"/>
-        <intercept-url pattern="/static/**" access="permitAll()"/>
+        <intercept-url pattern="/login*" access="permitAll()" />
+        <intercept-url pattern="/courses" access="hasAnyRole('ROLE_ADMIN', 'ROLE_TEACHER', 'ROLE_STUDENT')" />
+        <intercept-url pattern="/course/add" access="hasAnyRole('ROLE_TEACHER', 'ROLE_ADMIN')" />
+        <intercept-url pattern="/teachers" access="hasAnyRole('ROLE_ADMIN', 'ROLE_TEACHER')" />
+        <intercept-url pattern="/teacher/add" access="hasAnyRole('ROLE_TEACHER', 'ROLE_ADMIN')" />
+        <intercept-url pattern="/students" access="hasAnyRole('ROLE_ADMIN', 'ROLE_TEACHER', 'ROLE_STUDENT')" />
+        <intercept-url pattern="/student/add" access="hasAnyRole('ROLE_TEACHER', 'ROLE_ADMIN')" />
+        <intercept-url pattern="/users/**" access="hasRole('ROLE_ADMIN')" />
+        <intercept-url pattern="/static/**" access="permitAll()" />
+
+        <logout logout-success-url="/"
+                logout-url="/logout"
+                delete-cookies="JSESSIONID"/>
 
         <form-login login-page="/login.html"/>
         <csrf disabled="true"/>

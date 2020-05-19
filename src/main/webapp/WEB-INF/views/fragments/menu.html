@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
-
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-
 <div th:fragment="header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <img th:src="@{/static/img/logo.png}" width="50px">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
@@ -26,18 +26,16 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" th:href="@{/users}" tabindex="-1" aria-disabled="true">Пользователи</a>
+                    <a class="nav-link" th:href="@{/users}">Пользователи</a>
                 </li>
             </ul>
             <div sec:authorize="isAuthenticated()">
-                <a th:href="@{/profile}">
+                <a href="/logout">
                     <span th:text="${user}"></span>
                 </a>
             </div>
         </div>
     </nav>
 </div>
-
-
 </body>
-</html>
+</html>>

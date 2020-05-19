@@ -1,45 +1,41 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
-
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Курсы</title>
+    <title>Teachers</title>
     <link rel="stylesheet" th:href="@{~/static/css/bootstrap.min.css}"/>
 </head>
 <body>
-<div th:replace="fragments/menu :: header"/>
-<h1>Список курсов</h1>
+<div th:replace="fragments/menu::header"></div>
+<h1>Список преподавателей</h1>
 <table class="table">
     <thead>
     <tr>
         <th scope="col">ФИО</th>
-        <th scope="col">Дата рождения</th>
+        <th scope="col">Описание</th>
     </tr>
     </thead>
     <tbody>
-    <tr th:each="course : ${courses}">
-        <td th:text="${course.name}"></td>
-        <td th:text="${course.duration}"></td>
+    <tr th:each="teacher : ${teachers}">
+        <td th:text="${teacher.fio}"></td>
+        <td th:text="${teacher.about}"></td>
     </tr>
     </tbody>
 </table>
 <nav aria-label="Page navigation example">
     <ul class="pagination">
         <li th:each="page, iterStat : ${pages}" class="page-item">
-            <a class="page-link" th:href="@{/courses(pageNo=${iterStat.index})}" th:text="${iterStat.index + 1}"></a>
+            <a class="page-link" th:href="@{/teachers(pageNo=${iterStat.index})}" th:text="${iterStat.index + 1}"></a>
         </li>
     </ul>
 </nav>
-
-<div sec:authorize="hasRole('ROLE_ADMIN')">
-    <a class="btn btn-primary" href="/course/add" role="button">Добавить курс</a>
-</div>
+<a class="btn btn-primary" href="/teacher/add" role="button">Добавить преподавателя</a>
 
 
 
 <script type="text/javascript" th:src="@{~/static/js/jquery-3.4.1.slim.min.js}"></script>
 <script type="text/javascript" th:src="@{~/static/js/popper.min.js}"></script>
 <script type="text/javascript" th:src="@{~/static/js/bootstrap.min.js}"></script>
+
 </body>
 </html>
